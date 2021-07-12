@@ -27,7 +27,7 @@ function playRound(playerSelection, computerSelection) {
 
     /* Win Conditions */
     } else {
-        return `You Win! ${playerSelection} beats ${computerSelection}`;
+        return `You Win! ${playerSelection.replace(/^\w/, (c) => c.toUpperCase())} beats ${computerSelection.replace(/^\w/, (c) => c.toUpperCase())}`;
     } 
 }
 

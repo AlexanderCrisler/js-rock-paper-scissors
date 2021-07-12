@@ -1,0 +1,41 @@
+body {
+  color: #444444;
+  font-size: large;
+  font-family: monospace;
+}
+
+button {
+  background-color: white;
+  border-radius: 5%;
+  border-style: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: box-shadow 0.25s;
+  color: #444444;
+  font-size: large;
+  font-family: monospace;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: #444444;
+}
